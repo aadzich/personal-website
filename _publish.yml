@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: d84d9a46-b725-4be7-8d1c-9c8874917809
+      url: 'https://alexisadzich.netlify.app/'
