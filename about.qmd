@@ -1,9 +1,34 @@
 ---
-title: "About"
+title: "Alexis Adzich"
+about:
+  template: trestles
+  #image: profile.jpg
+  # store image in home dir, dont add anythign to site or freeze
+  links: # linkedin
+    - icon: github
+      text: Github
+      href: https://github.com/aadzich
+    - text: Email
+      url: "mailto:alexisadzich@gmail.com"
+      icon: inbox-fill
+toc: false
 ---
 
-About this site
+Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
 
-```{r}
-1 + 1
-```
+
+DOWNLOAD [CV](/cv.pdf)
+
+## Education
+
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul MA
+B.A in Economics | Sept 2007 - June 2011
+
+## Experience
+
+Wengo Analytics | Head Data Scientist | April 2018 - present
+
+GeoScynce | Chief Analyst | Spet 2012 - April 2018
