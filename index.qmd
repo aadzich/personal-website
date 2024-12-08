@@ -1,11 +1,43 @@
 ---
-title: "personal-website"
+title: "Alexis Adzich"
+about:
+  template: trestles
+  image: profile.jpg
+  # store image in home dir, dont add anythign to site or freeze
+  links: # linkedin
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/alexisadzich/
+    - icon: github
+      text: Github
+      href: https://github.com/aadzich
+    - text: Email
+      url: "mailto:alexisadzich@gmail.com"
+      icon: inbox-fill
+    - text: CV
+      url: "cv.pdf"
+    - text: Resume
+      url: "resume.pdf"
+toc: false
 ---
 
-This is a Quarto website.
+::: {.column-page}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Alexis Adzich is a fourth year undergrad at University of California Los Angeles (*UCLA*), double majoring in Applied Mathematics, with a Specialization in Computing, and Statistics & Data Science.
 
-```{r}
-1 + 1
-```
+
+
+
+## Education
+
+**University of California, Los Angeles | Los Angeles, CA**    
+*Sept 2021 - June 2025*  
+BS in Applied Mathematics, Specialization in Computing  
+BS in Statistics and Data Science
+<p>
+
+## Experience
+
+UCLA Office of Academic Excellence | Peer Learning Facilitator | *Sep 2023 - present*
+
+WhenToWork, Inc | Accounts Receivable Intern | *Oct 2019 - Sep 2023*

@@ -1,22 +1,28 @@
 project:
   type: website
+  resources: 
+    - cv.pdf
+    - resume.pdf
+    - profile.jpg
 
 website:
   title: "Alexis Adzich"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
       - href: projects.qmd
         text: Projects
+      - href: courses.qmd
+        text: Courses
+    background: secondary
+      
   page-footer: 
     right: "&copy; 2024, Alexis Adzich"
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     css: styles.css
     toc: true 
     

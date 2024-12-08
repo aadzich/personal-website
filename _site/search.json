@@ -1,24 +1,45 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Alexis Adzich",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\nDOWNLOAD CV"
+    "text": "Alexis Adzich is a fourth year undergrad at University of California Los Angeles (UCLA), double majoring in Applied Mathematics, with a Specialization in Computing, and Statistics & Data Science.\n\n\nUniversity of California, Los Angeles | Los Angeles, CA\nSept 2021 - June 2025\nBS in Applied Mathematics, Specialization in Computing\nBS in Statistics and Data Science\n\n\n\n\nUCLA Office of Academic Excellence | Peer Learning Facilitator | Sep 2023 - present\nWhenToWork, Inc | Accounts Receivable Intern | Oct 2019 - Sep 2023"
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
+    "objectID": "index.html#education",
+    "href": "index.html#education",
     "title": "Alexis Adzich",
-    "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+    "section": "",
+    "text": "University of California, Los Angeles | Los Angeles, CA\nSept 2021 - June 2025\nBS in Applied Mathematics, Specialization in Computing\nBS in Statistics and Data Science"
   },
   {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
     "title": "Alexis Adzich",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+    "section": "",
+    "text": "UCLA Office of Academic Excellence | Peer Learning Facilitator | Sep 2023 - present\nWhenToWork, Inc | Accounts Receivable Intern | Oct 2019 - Sep 2023"
+  },
+  {
+    "objectID": "projects/01-project.html",
+    "href": "projects/01-project.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "some complicated statistics project\n\nrunif(5)\n\n[1] 0.68166606 0.08356252 0.53477361 0.36164748 0.43356597"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "personal-website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects/02-project.html",
+    "href": "projects/02-project.html",
+    "title": "Project 2",
+    "section": "",
+    "text": "some complicated ststaistics project\n\nrnorm(100) |&gt; hist()"
   },
   {
     "objectID": "projects.html",
@@ -40,26 +61,5 @@
     "title": "Alexis Adzich",
     "section": "Project 2",
     "text": "Project 2\nHere is my project 2"
-  },
-  {
-    "objectID": "projects/02-project.html",
-    "href": "projects/02-project.html",
-    "title": "Project 2",
-    "section": "",
-    "text": "some complicated ststaistics project\n\nrnorm(100) |&gt; hist()"
-  },
-  {
-    "objectID": "projects/01-project.html",
-    "href": "projects/01-project.html",
-    "title": "Project 1",
-    "section": "",
-    "text": "some complicated ststaistics project\n\nrunif(5)\n\n[1] 0.78694397 0.11588049 0.62038151 0.76520351 0.07344625"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "personal-website",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
 ]
