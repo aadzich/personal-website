@@ -3,8 +3,7 @@ title: "Alexis Adzich"
 about:
   template: trestles
   image: profile.jpg
-  # store image in home dir, dont add anythign to site or freeze
-  links: # linkedin
+  links:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/alexisadzich/
@@ -41,3 +40,5 @@ BS in Statistics and Data Science
 UCLA Office of Academic Excellence | Peer Learning Facilitator | *Sep 2023 - present*
 
 WhenToWork, Inc | Accounts Receivable Intern | *Oct 2019 - Sep 2023*
+
+:::

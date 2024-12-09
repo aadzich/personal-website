@@ -1,0 +1,10 @@
+---
+title: Project 1
+---
+
+some complicated statistics project
+
+```{r}
+runif(5)
+```
+

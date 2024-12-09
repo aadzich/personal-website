@@ -1,31 +1,16 @@
 ---
-#title: "Projects"
+title: "Projects"
 toc: false
-listing: 
-  - id: project-listing
-    contents: 
-      - "/projects/*.qmd"
-    sort: false
-    sort-ui: false
-    filter-ui: true
-    type: table
-    fields: 
-      - title
-    categories: false
 ---
 
-## Project 1
-
-Here is my [project 1](/projects/01-project.qmd)
-
-
-## Project 2
-
-Here is my [project 2](/projects/02-project.qmd)
-
-
----
-
-:::project-listing
+::: column-page
 :::
+
+| Project Description                               | Link                                                         | Date     |
+|--------------------------|------------------------------|-----------------|
+| IMDB Movie Revenue                                | [Poster](\projects\imdb_poster.pdf)                          | Dec 2024 |
+| Computer Vision Automated Tennis Tagger           | [GitHub](https://github.com/cjgimena/UCLA-Tennis-Consulting) | Oct 2024 |
+| Music Genre Classification with FNNs              | [Report](\projects\genre_classif_report.pdf)                 | Mar 2024 |
+| SIR Rumor Propagation Model                       | [Slides](\projects\sir_rumor_slides.pdf)                     | Dec 2023 |
+| US House of Representatives Apportionment Methods | [Report](\projects\apportionment_ee.pdf)                     | May 2021 |
 

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Alexis Adzich",
     "section": "",
-    "text": "Alexis Adzich is a fourth year undergrad at University of California Los Angeles (UCLA), double majoring in Applied Mathematics, with a Specialization in Computing, and Statistics & Data Science.\n\n\nUniversity of California, Los Angeles | Los Angeles, CA\nSept 2021 - June 2025\nBS in Applied Mathematics, Specialization in Computing\nBS in Statistics and Data Science\n\n\n\n\nUCLA Office of Academic Excellence | Peer Learning Facilitator | Sep 2023 - present\nWhenToWork, Inc | Accounts Receivable Intern | Oct 2019 - Sep 2023"
+    "text": "Alexis Adzich is a fourth year undergrad at University of California Los Angeles (UCLA), double majoring in Applied Mathematics, with a Specialization in Computing, and Statistics & Data Science.\n\n\nUniversity of California, Los Angeles | Los Angeles, CA\nSept 2021 - June 2025\nBS in Applied Mathematics, Specialization in Computing\nBS in Statistics and Data Science\n\n\n\nUCLA Office of Academic Excellence | Peer Learning Facilitator | Sep 2023 - present\nWhenToWork, Inc | Accounts Receivable Intern | Oct 2019 - Sep 2023"
   },
   {
     "objectID": "index.html#education",
@@ -28,13 +28,6 @@
     "text": "some complicated statistics project\n\nrunif(5)\n\n[1] 0.68166606 0.08356252 0.53477361 0.36164748 0.43356597"
   },
   {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "personal-website",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "projects/02-project.html",
     "href": "projects/02-project.html",
     "title": "Project 2",
@@ -44,22 +37,8 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Alexis Adzich",
+    "title": "Projects",
     "section": "",
-    "text": "Here is my project 1"
-  },
-  {
-    "objectID": "projects.html#project-1",
-    "href": "projects.html#project-1",
-    "title": "Alexis Adzich",
-    "section": "",
-    "text": "Here is my project 1"
-  },
-  {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "Alexis Adzich",
-    "section": "Project 2",
-    "text": "Project 2\nHere is my project 2"
+    "text": "Project Description\nLink\nDate\n\n\n\n\nIMDB Movie Revenue\nPoster\nDec 2024\n\n\nComputer Vision Automated Tennis Tagger\nGitHub\nOct 2024\n\n\nMusic Genre Classification with FNNs\nReport\nMar 2024\n\n\nSIR Rumor Propagation Model\nSlides\nDec 2023\n\n\nUS House of Representatives Apportionment Methods\nReport\nMay 2021"
   }
 ]

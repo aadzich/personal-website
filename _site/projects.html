@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>projects – Alexis Adzich</title>
+<title>Projects – Alexis Adzich</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,65 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-project-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-project-listing'] = new List('listing-project-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -156,10 +96,6 @@ window.Quarto = {
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./courses.html"> 
-<span class="menu-text">Courses</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -173,59 +109,70 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
-
-
-
-<section id="project-1" class="level2">
-<h2 class="anchored" data-anchor-id="project-1">Project 1</h2>
-<p>Here is my <a href="./projects/01-project.html">project 1</a></p>
-</section>
-<section id="project-2" class="level2">
-<h2 class="anchored" data-anchor-id="project-2">Project 2</h2>
-<p>Here is my <a href="./projects/02-project.html">project 2</a></p>
-<hr>
-<div class="project-listing">
-
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Projects</h1>
 </div>
 
 
 
-</section>
+<div class="quarto-title-meta">
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-project-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="column-page">
+
 </div>
-<table class="quarto-listing-table table">
+<table class="caption-top table">
 <thead>
-<tr>
-<th>
-Title
-</th>
+<tr class="header">
+<th>Project Description</th>
+<th>Link</th>
+<th>Date</th>
 </tr>
 </thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1733641099064" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Project 1" data-listing-filename-sort="01-project.qmd">
-<td>
-<a href="./projects/01-project.html" class="title listing-title">Project 1</a>
-</td>
+<tbody>
+<tr class="odd">
+<td>IMDB Movie Revenue</td>
+<td><a href="\projects\imdb_poster.pdf">Poster</a></td>
+<td>Dec 2024</td>
 </tr>
-<tr data-index="1" data-listing-file-modified-sort="1733609343797" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Project 2" data-listing-filename-sort="02-project.qmd">
-<td>
-<a href="./projects/02-project.html" class="title listing-title">Project 2</a>
-</td>
+<tr class="even">
+<td>Computer Vision Automated Tennis Tagger</td>
+<td><a href="https://github.com/cjgimena/UCLA-Tennis-Consulting">GitHub</a></td>
+<td>Oct 2024</td>
+</tr>
+<tr class="odd">
+<td>Music Genre Classification with FNNs</td>
+<td><a href="\projects\genre_classif_report.pdf">Report</a></td>
+<td>Mar 2024</td>
+</tr>
+<tr class="even">
+<td>SIR Rumor Propagation Model</td>
+<td><a href="\projects\sir_rumor_slides.pdf">Slides</a></td>
+<td>Dec 2023</td>
+</tr>
+<tr class="odd">
+<td>US House of Representatives Apportionment Methods</td>
+<td><a href="\projects\apportionment_ee.pdf">Report</a></td>
+<td>May 2021</td>
 </tr>
 </tbody>
 </table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

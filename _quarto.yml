@@ -4,6 +4,7 @@ project:
     - cv.pdf
     - resume.pdf
     - profile.jpg
+    - projects
 
 website:
   title: "Alexis Adzich"
@@ -13,8 +14,6 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
-      - href: courses.qmd
-        text: Courses
     background: secondary
       
   page-footer: 
@@ -23,6 +22,7 @@ website:
 format:
   html:
     theme: journal
+    linkcolor: darkblue
     css: styles.css
     toc: true 
     
